@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react"
 import NewsItem from "./NewsItem";
 
+// eslint-disable-next-line react/prop-types
 const NewsAll = ({category}) => {
 
     const [articles,setArticles] = useState([]);

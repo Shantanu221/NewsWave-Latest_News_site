@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Image from '../assets/news-img.png'
 
 const NewsItem = ({title,description,src,url}) => {
